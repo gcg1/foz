@@ -1,0 +1,14 @@
+.page-not-found {
+  text-align: center;
+
+  header {
+    .nav-list-item {
+      display: none;
+    }
+  }
+
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

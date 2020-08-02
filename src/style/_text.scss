@@ -1,0 +1,85 @@
+.headline {
+  font-size: 30px;
+  font-size: clamp(30px, 4vw, 56px);
+  letter-spacing: -1px;
+  line-height: 1.2;
+  font-weight: 500;
+  max-width: 22ch;
+}
+
+// .headline .pre-title {
+//   font-size: 16px;
+//   font-size: clamp(16px, 1.6vw, 18px);
+//   font-weight: 500;
+//   line-height: 1.2;
+//   letter-spacing: -0.25px;
+//   opacity: 0.5;
+// }
+
+.headline--massive {
+  letter-spacing: -1.5px;
+  font-size: 40px;
+  font-size: clamp(40px, 5vw, 72px);
+  max-width: 25ch;
+}
+
+.headline--inline {
+  transform: translateX(-0.1ch);
+}
+
+h2 {
+  font-size: 32px;
+  font-size: clamp(32px, 8vw, 48px);
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+h5 {
+  font-size: 20px;
+  font-size: clamp(19px, 3vw, 22px);
+  font-weight: 500;
+  letter-spacing: -0.25px;
+  margin: 30px 0;
+}
+
+.subtitle {
+  font-size: 17px;
+  font-size: clamp(17px, 2vw, 22px);
+  line-height: 1.6;
+}
+
+p,
+textarea,
+input {
+  font-size: 16px;
+  font-size: clamp(16px, 1.42vw, 19px);
+  font-weight: 400;
+  line-height: 1.85;
+  letter-spacing: -0.25px;
+}
+
+p {
+  max-width: 53ch;
+}
+
+// strong {
+//   font-weight: 700;
+// }
+
+.error-message {
+  color: #c0392b;
+  font-weight: 500;
+}
+
+header,
+.scroll-prompt,
+footer {
+  font-size: 16px;
+  font-size: clamp(16px, 1.6vw, 18px);
+  letter-spacing: -0.2px;
+  line-height: 1;
+}
+
+.translucent {
+  opacity: 0.5;
+}

@@ -1,0 +1,98 @@
+@import "header";
+@import "masthead";
+@import "approach";
+@import "projects";
+@import "preFooter";
+@import "footer";
+
+@import "project";
+@import "contact";
+@import "404";
+
+@import "text";
+@import "button";
+@import "animate";
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page-wrapper {
+  background-color: #fff;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #fff;
+
+  a {
+    &::before {
+      background-color: #fff;
+    }
+  }
+
+  .nav-list-logo svg path {
+    fill: #fff;
+  }
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  margin: 80px 0;
+  margin: clamp(80px, 18vw, 240px) 0;
+}
+
+.spacer {
+  padding-bottom: 200px;
+  padding-bottom: clamp(200px, 50vw, 240px);
+}
+
+.small-spacer {
+  padding-bottom: 80px;
+  padding-bottom: clamp(80px, 15vw, 160px);
+}
+
+.grid-parent {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(25, 1fr);
+}
+
+.grid-item {
+  grid-column-start: 2;
+  grid-column-end: span 23;
+}
+
+.grid-item--middle {
+  grid-column-start: 7;
+  grid-column-end: span 13;
+}
+
+@media (max-width: 500px) {
+  .grid-item {
+    grid-column-start: 3;
+    grid-column-end: span 21;
+  }
+}

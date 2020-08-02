@@ -1,0 +1,59 @@
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  border: inherit;
+  font-weight: 500;
+
+  cursor: pointer;
+  border-radius: 99px;
+  padding: 10px 20px;
+  transition: background-color 0.1s ease-in-out;
+
+  &.button--inline {
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #000;
+    margin: 20px 0;
+    display: inline-block;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  .HoverArrow {
+    margin-left: 8px;
+    stroke: currentColor;
+    stroke-width: 2;
+
+    .HoverArrow__tipPath {
+      fill: none;
+      transition: transform 0.1s ease-in-out;
+    }
+
+    .HoverArrow__linePath {
+      transform: scaleX(0);
+      transition: transform 0.15s;
+      transform-origin: center;
+    }
+  }
+
+  &:hover {
+    .HoverArrow__tipPath {
+      transform: translateX(3px);
+    }
+
+    .HoverArrow__linePath {
+      transform: scaleX(1);
+    }
+  }
+}
+
+.dark-mode {
+  .button {
+    &.button--inline {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}

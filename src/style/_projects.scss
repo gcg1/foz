@@ -1,0 +1,55 @@
+.projects-grid {
+  padding-top: 40px;
+
+  .grid-item {
+    grid-column-start: 1;
+    grid-column-end: span 25;
+
+    &:not(:first-child) {
+      padding-top: 60px;
+      padding-top: clamp(60px, 7vw, 90px);
+    }
+
+    .image-cover {
+      overflow: hidden;
+
+      img {
+        transform: scale(1.01);
+        transition: transform 0.8s ease-in-out;
+      }
+    }
+
+    .image-caption {
+      padding: 0 8vw;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.15);
+      }
+    }
+  }
+
+  @media (min-width: 850px) {
+    .grid-item {
+      grid-column-end: span 11;
+
+      &:nth-child(2) {
+        padding-top: 0;
+      }
+
+      &:nth-child(odd) {
+        grid-column-start: 2;
+        grid-column-end: span 11;
+      }
+      &:nth-child(even) {
+        grid-column-start: 14;
+        grid-column-end: span 11;
+      }
+
+      .image-caption {
+        padding: 0;
+      }
+    }
+  }
+}

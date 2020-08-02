@@ -1,0 +1,15 @@
+import React from "react"
+import { HoverArrow } from "./hoverArrow"
+
+export const FormButton = props => {
+  return (
+    <button
+      className={`button ${props.inline && "button--inline"}`}
+      value="Send"
+      type="submit"
+    >
+      {props.text}
+      <HoverArrow />
+    </button>
+  )
+}
