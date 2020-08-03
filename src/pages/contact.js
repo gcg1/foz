@@ -1,8 +1,8 @@
 import React, { useState } from "react"
-import { Layout } from "./components/layout"
-import { Header } from "./components/header"
-import { Footer } from "./components/footer"
-import { FormButton } from "./components/formButton"
+import Layout from "./components/layout"
+import Header from "./components/header"
+import Footer from "./components/footer"
+import FormButton from "./components/formButton"
 
 export default function Contact(props) {
   const [name, setName] = useState("")

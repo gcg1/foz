@@ -1,6 +1,6 @@
 import React from "react"
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer>
       <div className="grid-parent">
@@ -16,3 +16,5 @@ export const Footer = () => {
     </footer>
   )
 }
+
+export default Footer

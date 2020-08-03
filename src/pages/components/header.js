@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import { HoverArrow } from "./hoverArrow"
+import HoverArrow from "./hoverArrow"
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="site-header transparent">
       <nav className="grid-parent">
@@ -42,3 +42,5 @@ export const Header = () => {
     </header>
   )
 }
+
+export default Header

@@ -1,7 +1,7 @@
 import React from "react"
-import { LinkButton } from "./linkButton"
+import LinkButton from "./linkButton"
 
-export const TextBlock = props => {
+const TextBlock = props => {
   return (
     <div className="container container--text-container">
       <div className="grid-parent animate">
@@ -20,3 +20,5 @@ export const TextBlock = props => {
     </div>
   )
 }
+
+export default TextBlock

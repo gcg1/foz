@@ -1,7 +1,7 @@
 import React from "react"
-import { HoverArrow } from "./hoverArrow"
+import HoverArrow from "./hoverArrow"
 
-export const FormButton = props => {
+const FormButton = props => {
   return (
     <button
       className={`button ${props.inline && "button--inline"}`}
@@ -13,3 +13,5 @@ export const FormButton = props => {
     </button>
   )
 }
+
+export default FormButton

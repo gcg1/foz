@@ -1,8 +1,8 @@
 import React from "react"
 import Div100vh from "react-div-100vh"
-import { Layout } from "./components/layout"
-import { Header } from "./components/header"
-import { LinkButton } from "./components/linkButton"
+import Layout from "./components/layout"
+import Header from "./components/header"
+import LinkButton from "./components/linkButton"
 
 export default function NotFound() {
   return (

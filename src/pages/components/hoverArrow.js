@@ -1,6 +1,6 @@
 import React from "react"
 
-export const HoverArrow = () => {
+const HoverArrow = () => {
   return (
     <svg
       className="HoverArrow"
@@ -16,3 +16,5 @@ export const HoverArrow = () => {
     </svg>
   )
 }
+
+export default HoverArrow

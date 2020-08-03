@@ -3,7 +3,7 @@ import { scroller } from "react-scroll"
 import Gradient from "../../assets/gradient.mp4"
 import Div100vh from "react-div-100vh"
 
-export const Masthead = () => {
+const Masthead = () => {
   const handleClick = () => {
     scroller.scrollTo("scroll-marker", {
       duration: 500,
@@ -52,3 +52,5 @@ export const Masthead = () => {
     </Div100vh>
   )
 }
+
+export default Masthead

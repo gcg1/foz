@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import propcard from "../../assets/projects/propcard/thumbnail.jpg"
 import propcardApp from "../../assets/projects/propcard-app/thumbnail.png"
 
-export const ProjectsGrid = props => {
+const ProjectsGrid = props => {
   const [projects] = useState([
     {
       id: "propcard",
@@ -49,3 +49,5 @@ export const ProjectsGrid = props => {
     </section>
   )
 }
+
+export default ProjectsGrid

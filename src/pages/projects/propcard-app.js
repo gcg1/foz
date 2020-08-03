@@ -1,9 +1,9 @@
 import React from "react"
-import { Header } from "../components/header"
-import { TextBlock } from "../components/textBlock"
-import { PreFooter } from "../components/preFooter"
-import { Footer } from "../components/footer"
-import { Layout } from "../components/layout"
+import Header from "../components/header"
+import TextBlock from "../components/textBlock"
+import PreFooter from "../components/preFooter"
+import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 import desktop from "../../assets/projects/propcard/desktop.jpg"
 import platform from "../../assets/projects/propcard/platform.jpg"
@@ -19,7 +19,7 @@ import listings from "../../assets/projects/propcard-app/listings.png"
 import plan from "../../assets/projects/propcard-app/plan.png"
 import workflow from "../../assets/projects/propcard-app/workflow.png"
 
-export default function Propcard(props) {
+export default function PropcardApp(props) {
   // useEffect(() => {
   //   props.darkModeOn(true);
   // });

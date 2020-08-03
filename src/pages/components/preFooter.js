@@ -1,6 +1,6 @@
 import React from "react"
 
-export const PreFooter = () => {
+const PreFooter = () => {
   return (
     <section>
       <div className="preFooter">
@@ -17,3 +17,5 @@ export const PreFooter = () => {
     </section>
   )
 }
+
+export default PreFooter
