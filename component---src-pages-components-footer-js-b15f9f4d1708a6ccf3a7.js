@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{qFMz:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),l=n.n(t);a.default=function(){return l.a.createElement("footer",null,l.a.createElement("div",{className:"grid-parent"},l.a.createElement("div",{className:"nav grid-item"},l.a.createElement("ul",null,l.a.createElement("li",null,l.a.createElement("a",{href:"mailto:info@foz.agency"},"info@foz.agency")),l.a.createElement("li",null,"10 York Road, London, SE1 7ND")))))}}}]);
+//# sourceMappingURL=component---src-pages-components-footer-js-b15f9f4d1708a6ccf3a7.js.map

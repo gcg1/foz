@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{ZOHq:function(e,a,t){"use strict";t.r(a);var r=t("q1tI"),n=t.n(r);a.default=function(){return n.a.createElement("svg",{className:"HoverArrow",width:"10",height:"10",viewBox:"0 0 10 10","aria-hidden":"true"},n.a.createElement("g",{fillRule:"evenodd"},n.a.createElement("path",{className:"HoverArrow__linePath",d:"M0 5h7"}),n.a.createElement("path",{className:"HoverArrow__tipPath",d:"M1 1l4 4-4 4"})))}}}]);
+//# sourceMappingURL=component---src-pages-components-hover-arrow-js-1e8c13e3f6d33713ba6c.js.map
