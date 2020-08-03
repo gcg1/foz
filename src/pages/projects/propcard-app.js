@@ -1,12 +1,13 @@
 import React from "react"
+import SEO from "../components/seo"
 import Header from "../components/header"
 import TextBlock from "../components/textBlock"
 import PreFooter from "../components/preFooter"
 import Footer from "../components/footer"
 import Layout from "../components/layout"
 
-import desktop from "../../assets/projects/propcard/desktop.jpg"
-import platform from "../../assets/projects/propcard/platform.jpg"
+// import desktop from "../../assets/projects/propcard/desktop.jpg"
+// import platform from "../../assets/projects/propcard/platform.jpg"
 
 import assemblage from "../../assets/projects/propcard-app/assemblage.jpg"
 import onboarding from "../../assets/projects/propcard-app/onboarding.png"
@@ -26,6 +27,7 @@ export default function PropcardApp(props) {
 
   return (
     <Layout dark={false}>
+      <SEO title="Propcard" />
       <div className="project-page">
         <Header />
         <div className="spacer"></div>

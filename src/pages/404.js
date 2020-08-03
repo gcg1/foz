@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "./components/seo"
 import Div100vh from "react-div-100vh"
 import Layout from "./components/layout"
 import Header from "./components/header"
@@ -7,6 +8,7 @@ import LinkButton from "./components/linkButton"
 export default function NotFound() {
   return (
     <Layout dark={true}>
+      <SEO title="404" />
       <div className="page-not-found">
         <Header />
         <Div100vh>

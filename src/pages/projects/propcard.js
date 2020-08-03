@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 import Header from "../components/header"
 import TextBlock from "../components/textBlock"
 import PreFooter from "../components/preFooter"
@@ -29,6 +30,7 @@ export default function Propcard(props) {
 
   return (
     <Layout dark={true}>
+      <SEO title="Propcard" />
       <div className="project-page">
         <Header />
         <div className="spacer"></div>

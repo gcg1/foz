@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import SEO from "./components/seo"
 import Layout from "./components/layout"
 import Header from "./components/header"
 import Footer from "./components/footer"
@@ -31,6 +32,7 @@ export default function Contact(props) {
 
   return (
     <Layout dark={false}>
+      <SEO title="Contact" />
       <div className="contact-page">
         <Header />
         <div className="small-spacer"></div>
