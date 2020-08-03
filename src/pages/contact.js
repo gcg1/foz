@@ -30,7 +30,7 @@ export default function Contact(props) {
   }
 
   return (
-    <Layout>
+    <Layout dark={false}>
       <div className="contact-page">
         <Header />
         <div className="small-spacer"></div>

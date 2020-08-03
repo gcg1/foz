@@ -93,7 +93,7 @@ export class Approach extends React.Component {
           <div className="grid-parent animate">
             <div className="grid-item approach-items-container">
               {this.state.items.map(item => (
-                <div className="approach-item">
+                <div className="approach-item" key={item.title}>
                   <div className="item-header">
                     {item.icon}
                     <div className="line"></div>

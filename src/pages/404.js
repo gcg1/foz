@@ -1,12 +1,12 @@
 import React from "react"
+import Div100vh from "react-div-100vh"
 import { Layout } from "./components/layout"
 import { Header } from "./components/header"
-import Div100vh from "react-div-100vh"
 import { LinkButton } from "./components/linkButton"
 
 export default function NotFound() {
   return (
-    <Layout>
+    <Layout dark={true}>
       <div className="page-not-found">
         <Header />
         <Div100vh>

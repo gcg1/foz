@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import propcard from "../../assets/projects/propcard/thumbnail.jpg"
 import propcardApp from "../../assets/projects/propcard-app/thumbnail.png"
 
-export default function ProjectsGrid(props) {
+export const ProjectsGrid = props => {
   const [projects] = useState([
     {
       id: "propcard",
@@ -28,8 +28,12 @@ export default function ProjectsGrid(props) {
           <h2 className="grid-item">Featured Projects</h2>
         </div>
         <div className="grid-parent projects-grid">
-          {this.state.projects.map(project => (
-            <Link to={`/projects/${project.id}`} className="grid-item animate">
+          {projects.map(project => (
+            <Link
+              to={`/projects/${project.id}`}
+              className="grid-item animate"
+              key={project.id}
+            >
               <div className="image-cover">
                 <img src={project.thumbnail} alt={project.client} />
               </div>

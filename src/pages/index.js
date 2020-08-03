@@ -9,15 +9,17 @@ import { Footer } from "./components/footer"
 
 export default function Home() {
   return (
-    <Layout>
-      <Header />
+    <Layout dark={true}>
+      <div className="home-page">
+        <Header />
 
-      <Masthead />
-      <Approach />
-      <ProjectsGrid />
+        <Masthead />
+        <Approach />
+        <ProjectsGrid />
 
-      <PreFooter />
-      <Footer />
+        <PreFooter />
+        <Footer />
+      </div>
     </Layout>
   )
 }

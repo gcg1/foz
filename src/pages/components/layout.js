@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import "../../style/main.scss"
 import "typeface-dm-sans"
 
-export const Layout = ({ children }) => {
+export const Layout = props => {
   const isElementXPercentInViewport = function (el, percentVisible) {
     let rect = el.getBoundingClientRect(),
       windowHeight = window.innerHeight || document.documentElement.clientHeight
@@ -44,5 +44,7 @@ export const Layout = ({ children }) => {
   //   darkMode !== bool && updateDarkMode(bool)
   // }
 
-  return <div className="page-wrapper dark-mode">{children}</div>
+  // return <div className={`page-wrapper ${dark && "dark-mode"}`}>{children}</div>
+
+  return <div className={props.dark && "dark-mode"}>{props.children}</div>
 }

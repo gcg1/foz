@@ -50,13 +50,13 @@ header {
         &:last-child {
           margin-right: -10px;
 
-          .button {
-            background-color: rgba(#000, 0.07);
+          // .button {
+          //   background-color: rgba(#000, 0.07);
 
-            &:hover {
-              background-color: rgba(#000, 0.15);
-            }
-          }
+          //   &:hover {
+          //     background-color: rgba(#000, 0.15);
+          //   }
+          // }
         }
       }
     }
@@ -64,16 +64,18 @@ header {
 }
 
 .dark-mode {
-  header {
-    nav {
-      .nav-list {
-        .nav-list-item {
-          &:last-child {
-            .button {
-              background-color: rgba(#fff, 0.15);
+  .home-page {
+    header {
+      nav {
+        .nav-list {
+          .nav-list-item {
+            &:last-child {
+              .button {
+                background-color: rgba(#fff, 0.15);
 
-              &:hover {
-                background-color: rgba(#fff, 0.25);
+                &:hover {
+                  background-color: rgba(#fff, 0.25);
+                }
               }
             }
           }
