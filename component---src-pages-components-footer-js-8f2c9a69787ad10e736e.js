@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{qFMz:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),l=a.n(t);n.default=function(){return l.a.createElement("footer",null,l.a.createElement("div",{className:"grid-parent"},l.a.createElement("div",{className:"nav grid-item"},l.a.createElement("ul",null,l.a.createElement("li",null,"10 York Road, London, SE1 7ND")))))}}}]);
+//# sourceMappingURL=component---src-pages-components-footer-js-8f2c9a69787ad10e736e.js.map
